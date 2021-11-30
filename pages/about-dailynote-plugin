@@ -1,0 +1,37 @@
+{
+  "title": "About DailyNote Plugin",
+  "story": [
+  {
+    "type": "paragraph",
+    "id": "0à¾cæ2ê¼éæè8ëç23",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "dailynote",
+    "id": "¾é³ë4ääfè15³à¾é7",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+],
+  "journal": [
+  {
+    "type": "create",
+    "item": {
+      "title": "About DailyNote Plugin",
+      "story": [
+  {
+    "type": "paragraph",
+    "id": "0à¾cæ2ê¼éæè8ëç23",
+    "text": "Here we describe the purpose of the plugin and include a sample."
+  },
+  {
+    "type": "dailynote",
+    "id": "¾é³ë4ääfè15³à¾é7",
+    "text": "This is text in the new plugin. You can *double-click* to edit it too."
+  }
+]
+    },
+    "date": 1638247651000,
+    "certificate": "from mkplugin.sh"
+  }
+]
+}
