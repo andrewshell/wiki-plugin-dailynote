@@ -10,4 +10,3 @@ This plugin, type: dailynote, extends the markup of the federated wiki.
 ## License
 
 MIT
-

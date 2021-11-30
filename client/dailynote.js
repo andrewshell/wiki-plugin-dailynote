@@ -10,16 +10,37 @@
   }
 
   function emit($item, item) {
-    return $item.append(`
-      <p style="background-color:#eee;padding:15px;">
-        ${expand(item.text)}
-      </p>`)
+    if ($('.editEnable').is(':visible')) {
+      $item.append(`<p><button>Add Daily Note</button></p>`)
+    }
   }
 
   function bind($item, item) {
-    return $item.dblclick(() => {
+    $item.find('button').click(() => {
+      if (!$('.editEnable').is(':visible')) {
+        return;
+      }
+
+      let page = $item.parents('.page').data('data');
+      let dateTitle = new Date().toLocaleDateString(
+        navigator.languages[0] || 'en-US',
+        { year: 'numeric', month: 'long', day: 'numeric' }
+      );
+      let text = `[[${dateTitle}]]`;
+      let idx = page.story.findIndex((e) => {
+        return e.text === text;
+      });
+      if (-1 === idx) {
+        wiki.createItem(null, $item, {
+          "type": "paragraph",
+          "text": text
+        });
+      }
+    });
+
+    $item.dblclick(() => {
       return wiki.textEditor($item, item);
-    })
+    });
   }
 
   if (typeof window !== "undefined" && window !== null) {

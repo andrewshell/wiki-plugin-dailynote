@@ -1,37 +1,138 @@
 {
   "title": "About DailyNote Plugin",
   "story": [
-  {
-    "type": "paragraph",
-    "id": "0à¾cæ2ê¼éæè8ëç23",
-    "text": "Here we describe the purpose of the plugin and include a sample."
-  },
-  {
-    "type": "dailynote",
-    "id": "¾é³ë4ääfè15³à¾é7",
-    "text": "This is text in the new plugin. You can *double-click* to edit it too."
-  }
-],
-  "journal": [
-  {
-    "type": "create",
-    "item": {
-      "title": "About DailyNote Plugin",
-      "story": [
-  {
-    "type": "paragraph",
-    "id": "0à¾cæ2ê¼éæè8ëç23",
-    "text": "Here we describe the purpose of the plugin and include a sample."
-  },
-  {
-    "type": "dailynote",
-    "id": "¾é³ë4ääfè15³à¾é7",
-    "text": "This is text in the new plugin. You can *double-click* to edit it too."
-  }
-]
+    {
+      "type": "paragraph",
+      "id": "da57f19c77a4b9b4",
+      "text": "The DailyNote plugin creates a button that when clicked adds a new paragraph linking to today's date directly under itself."
     },
-    "date": 1638247651000,
-    "certificate": "from mkplugin.sh"
-  }
-]
+    {
+      "type": "paragraph",
+      "id": "165a769349203658",
+      "text": "This way all your daily note pages will be listed in reverse chronological order with the most recent daily note on top."
+    },
+    {
+      "type": "paragraph",
+      "id": "047f342949b1be0c",
+      "text": "Prior art in [https://roamresearch.com/#/app/help/page/eOaNXBvXZ Roam Research]"
+    },
+    {
+      "type": "dailynote",
+      "id": "333c879a02a602e9",
+      "text": "Daily Note"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "About DailyNote Plugin",
+        "story": [
+          {
+            "type": "paragraph",
+            "id": "da57f19c77a4b9b4",
+            "text": "Here we describe the purpose of the plugin and include a sample."
+          },
+          {
+            "type": "dailynote",
+            "id": "4a26d15d6af37380",
+            "text": "This is text in the new plugin. You can *double-click* to edit it too."
+          }
+        ]
+      },
+      "date": 1638247651000,
+      "certificate": "from mkplugin.sh"
+    },
+    {
+      "type": "edit",
+      "id": "da57f19c77a4b9b4",
+      "item": {
+        "type": "paragraph",
+        "id": "da57f19c77a4b9b4",
+        "text": "The DailyNote plugin creates a button that when clicked adds a new paragraph linking to today's date directly under itself."
+      },
+      "date": 1638301175597
+    },
+    {
+      "type": "add",
+      "id": "165a769349203658",
+      "item": {
+        "type": "paragraph",
+        "id": "165a769349203658",
+        "text": "This way all your daily note pages will be listed in reverse chronological order with the most recent daily note on top."
+      },
+      "after": "da57f19c77a4b9b4",
+      "date": 1638301203960
+    },
+    {
+      "type": "edit",
+      "id": "4a26d15d6af37380",
+      "item": {
+        "type": "dailynote",
+        "id": "4a26d15d6af37380",
+        "text": "Prior art in [https://roamresearch.com/#/app/help/page/eOaNXBvXZ Roam Research]"
+      },
+      "date": 1638301238061
+    },
+    {
+      "type": "remove",
+      "id": "4a26d15d6af37380",
+      "date": 1638301243102
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "047f342949b1be0c"
+      },
+      "id": "047f342949b1be0c",
+      "type": "add",
+      "after": "165a769349203658",
+      "date": 1638301244246
+    },
+    {
+      "type": "edit",
+      "id": "047f342949b1be0c",
+      "item": {
+        "type": "paragraph",
+        "id": "047f342949b1be0c",
+        "text": "Prior art in [https://roamresearch.com/#/app/help/page/eOaNXBvXZ Roam Research]"
+      },
+      "date": 1638301246365
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3819023b0a73f66a"
+      },
+      "id": "3819023b0a73f66a",
+      "type": "add",
+      "after": "047f342949b1be0c",
+      "date": 1638301321006
+    },
+    {
+      "type": "remove",
+      "id": "3819023b0a73f66a",
+      "date": 1638301356563
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "333c879a02a602e9"
+      },
+      "id": "333c879a02a602e9",
+      "type": "add",
+      "after": "047f342949b1be0c",
+      "date": 1638275187344
+    },
+    {
+      "type": "edit",
+      "id": "333c879a02a602e9",
+      "item": {
+        "type": "dailynote",
+        "id": "333c879a02a602e9",
+        "text": "DailyNote"
+      },
+      "date": 1638275198200
+    }
+  ]
 }
