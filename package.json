@@ -1,6 +1,6 @@
 {
   "name": "wiki-plugin-dailynote",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Federated Wiki - DailyNote Plugin",
   "keywords": [
     "dailynote",
@@ -9,9 +9,9 @@
     "plugin"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "you@example.com",
-    "url": "http://example.com"
+    "name": "Andrew Shell",
+    "email": "andrew@andrewshell.org",
+    "url": "https://blog.andrewshell.org/"
   },
   "contributors": [],
   "scripts": {
@@ -29,10 +29,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fedwiki/wiki-plugin-dailynote.git"
+    "url": "https://github.com/andrewshell/wiki-plugin-dailynote.git"
   },
   "bugs": {
-    "url": "https://github.com/fedwiki/wiki-plugin-dailynote/issues"
+    "url": "https://github.com/andrewshell/wiki-plugin-dailynote/issues"
   },
   "engines": {
     "node": ">=0.10"
